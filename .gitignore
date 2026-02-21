@@ -1,0 +1,31 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Scraper temp data (generated, not source)
+.tmp/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSFiles
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env files
+.env
+.env.local
+.env*.local
+
+# Node / Next.js (dashboard-app has its own .gitignore but this covers root-level)
+node_modules/
